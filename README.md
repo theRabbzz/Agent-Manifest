@@ -32,3 +32,5 @@ class ManifestationAI:
    AI: "Imagine checking your bank account with excitement..."User: "Review progress"
    AI: Returns comprehensive report with all entries + reframesUser: "Review progress"
    AI: Returns comprehensive report with all entries + reframes
+
+python cli.py --text "What does a duck dream of?"
