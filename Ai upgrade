@@ -1,0 +1,8 @@
+Agent-Manifest/
+├── agent_core/        # AI models & logic
+│   ├── llm.py        # Text AI module
+│   ├── vision.py     # Image processing module
+│   ├── audio.py      # Speech processing module
+├── cli.py             # Command-line interface (main script)
+├── requirements.txt   # Dependencies
+├── README.md          # Documentation
