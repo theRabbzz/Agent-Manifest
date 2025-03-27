@@ -6,3 +6,18 @@ Agent-Manifest/
 ├── cli.py             # Command-line interface (main script)
 ├── requirements.txt   # Dependencies
 ├── README.md          # Documentation
+
+Agent-Manifest/
+├── agent_core/       # Core AI logic (LLM, Vision, Audio)
+├── models/           # Pretrained models (Mistral, CLIP, Whisper, etc.)
+├── interfaces/       # API & front-end (CLI, Flask, or Web UI)
+├── utils/            # Helper functions (token efficiency, memory management)
+├── main.py           # Entry point for the AI agent
+├── requirements.txt  # Dependencies
+├── README.md         # Documentation
+
+
+
+python cli.py --text "Write a dream interpretation"
+python cli.py --image path/to/image.jpg
+python cli.py --audio path/to/audio.wav
