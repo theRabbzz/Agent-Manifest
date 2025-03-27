@@ -1,0 +1,12 @@
+# Handles audio input using Whisper or similar model
+
+def transcribe_audio(audio_path):
+    return f"[MOCK] Transcribing audio from: {audio_path}"
+# Handles text input using an LLM
+
+def generate_text(prompt):
+    return f"[MOCK] Response to: '{prompt}'"
+# Handles image input using CLIP or similar model
+
+def analyze_image(image_path):
+    return f"[MOCK] Analyzing image: {image_path}"
